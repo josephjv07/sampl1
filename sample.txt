@@ -1,0 +1,93 @@
+git
+========
+=========
+it is a version control sysytem which track the changes in the code in our own machine
+
+github
+========
+========
+it is a remote application used to merge different more people into a project using repositories
+
+there are some alternatives for gtihub like gitlab,bitbucket etcc...
+
+====================   GIT commands=============================
+
+==============================================================
+
+
+git clone <repository url>  :
+==========================
+
+Clones a remote Git repository to your local machine which will be termed as Localrepository.
+
+
+git status :
+==========================
+
+It gives the current status of your working directory, if git was initialized (.git file in the folder)
+it shows the untracked files (U),added files (A),Modified files(M)
+
+git init
+=========
+if u are opening a existing directory in ur machine without cloniing we can add git by using 
+git init using a bash
+
+
+git add <file name>
+========================
+
+it add the the file to the staging area (file to be needed to commit) in the next step {untracked >> Added}
+
+git add .
+========================
+
+it add the files the files in the directory to the staging area
+
+git commit -m "Commit message"
+=============================
+
+Commits the staged changes with a descriptive message. 
+This step records the changes in the local repository's history.
+
+git pull
+============================
+
+Fetches the latest changes from the repository,helps to ensure that your local repository is up-to-date 
+
+git branch origin machine
+===============================
+
+helps to ensure our first branch to push is the branch machine
+
+
+git push origin <branch-name>
+=================================
+
+used to push the  your committed changes to the remote repository. 
+normally  push the changes to a specific branch (<branch-name>, main or master).
+
+git branch
+=================================
+
+used to list all the branches u make to push different contents
+
+git checkout branchname
+=====================
+used to exit from the brach  and we can move to anoher branch only if we create several branches
+
+git log
+=======================
+
+to get the commit history for the local repository in our machine, 
+get the details of each commit like the username,user email, date,time,message.
+
+gti merge branchname
+=======================
+
+the specified branch into the current branch,we will use to combine changes from one branchto another
+
+
+
+
+
+
